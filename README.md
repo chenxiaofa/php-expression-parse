@@ -1,7 +1,7 @@
 PHP实现的表达式解析器
 "# php-expression-parse" 
 ```php
-$a = new Expression(' {a} / (1+5+(4*8)/(124+55))  + {b} + 454 * (1+8)');
+$a = new \anong\expression\Expression(' {a} / (1+5+(4*8)/(124+55))  + {b} + 454 * (1+8)');
 echo $a->calc([
     '{a}'=>1,
     '{b}'=>1,
